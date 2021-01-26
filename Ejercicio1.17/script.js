@@ -20,7 +20,7 @@ class Factura{
         Total = Base_Imponible + ((Base_Imponible * 16)/100)
         this.informacion.baseImponible = Base_Imponible
         this.informacion.total = Base_Imponible
-        alert("Base Imponible" + Base_Imponible + "\n" + "Total:"+ Total)
+        alert("Base Imponible: " + Base_Imponible + "\n" + "Total: "+ Total+" euros")
     }
 }
 
@@ -41,7 +41,7 @@ class Elemento{
     }
 }
 
-let Cliente1 = new Cliente("Pepe","Direccion","555344455","71271960c")
+let Cliente1 = new Cliente("Julio","Burgos","666444000","10101010G")
 
 var lineas = [];
 let Linea1 = new Elemento("Descripcion1",10,10)
